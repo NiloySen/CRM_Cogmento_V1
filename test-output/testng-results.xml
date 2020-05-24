@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-21T20:02:47Z" name="FREE CRM Cogmento Test Suite" finished-at="2020-05-21T20:03:33Z" duration-ms="45558">
+    <groups>
+    </groups>
+    <test started-at="2020-05-21T20:02:47Z" name="Free CRM Cogmento App Test Cases" finished-at="2020-05-21T20:03:33Z" duration-ms="45558">
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.crm.qa.testcases.HomePageTest@42e99e4a]" started-at="2020-05-21T20:02:48Z" name="initialization" finished-at="2020-05-21T20:03:05Z" duration-ms="17213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@42e99e4a]" started-at="2020-05-21T20:03:05Z" name="setUp" finished-at="2020-05-21T20:03:07Z" duration-ms="1623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateDealsLinkDisplayTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@42e99e4a]" started-at="2020-05-21T20:03:07Z" name="validateDealsLinkDisplayTest" finished-at="2020-05-21T20:03:08Z" duration-ms="1839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDealsLinkDisplayTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@42e99e4a]" started-at="2020-05-21T20:03:08Z" name="tearDown" finished-at="2020-05-21T20:03:10Z" duration-ms="2024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14dd9eb7]" started-at="2020-05-21T20:03:10Z" name="initialization" finished-at="2020-05-21T20:03:25Z" duration-ms="14238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14dd9eb7]" started-at="2020-05-21T20:03:25Z" name="setUp" finished-at="2020-05-21T20:03:25Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@14dd9eb7]" started-at="2020-05-21T20:03:25Z" name="validateLoginPageTitleTest" finished-at="2020-05-21T20:03:25Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14dd9eb7]" started-at="2020-05-21T20:03:25Z" name="setUp" finished-at="2020-05-21T20:03:25Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginPageLinkTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@14dd9eb7]" started-at="2020-05-21T20:03:25Z" name="validateLoginPageLinkTest" finished-at="2020-05-21T20:03:25Z" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageLinkTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14dd9eb7]" started-at="2020-05-21T20:03:25Z" name="setUp" finished-at="2020-05-21T20:03:25Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@14dd9eb7]" started-at="2020-05-21T20:03:25Z" name="loginTest" finished-at="2020-05-21T20:03:26Z" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14dd9eb7]" started-at="2020-05-21T20:03:26Z" name="setUp" finished-at="2020-05-21T20:03:26Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateHomePageLinkTest()[pri:4, instance:com.crm.qa.testcases.LoginPageTest@14dd9eb7]" started-at="2020-05-21T20:03:26Z" name="validateHomePageLinkTest" finished-at="2020-05-21T20:03:31Z" duration-ms="4586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14dd9eb7]" started-at="2020-05-21T20:03:31Z" name="tearDown" finished-at="2020-05-21T20:03:33Z" duration-ms="2033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Free CRM Cogmento App Test Cases -->
+  </suite> <!-- FREE CRM Cogmento Test Suite -->
+</testng-results>

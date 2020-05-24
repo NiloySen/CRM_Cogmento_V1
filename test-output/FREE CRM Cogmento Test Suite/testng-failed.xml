@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FREE CRM Cogmento Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG_Relevantcodes"/>
+  </listeners>
+  <test thread-count="5" name="Free CRM Cogmento App Test Cases(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.crm.qa.testcases.ContactPageTest">
+        <methods>
+          <include name="validateCreateNewContactTest" invocation-numbers="0 1 2"/>
+          <include name="initialization"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ContactPageTest -->
+    </classes>
+  </test> <!-- Free CRM Cogmento App Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE CRM Cogmento Test Suite] -->

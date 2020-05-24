@@ -1,0 +1,10 @@
+com\qa\ExtentReportListener\ExtentReporterNG_Relevantcodes.class
+com\qa\ExtentReportListener\Reporting_Aventstack.class
+com\crm\qa\base\Base.class
+com\crm\qa\pages\HomePage.class
+com\crm\qa\pages\UserManagerPage.class
+com\crm\qa\pages\LoginPage.class
+com\crm\qa\util\Util.class
+com\crm\qa\test\Test.class
+com\crm\qa\pages\ContactPage.class
+com\crm\qa\pages\DealPage.class

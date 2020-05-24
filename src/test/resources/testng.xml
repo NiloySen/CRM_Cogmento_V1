@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE CRM Cogmento Test Suite">
+	
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG_Relevantcodes" />
+	</listeners>
+
+	<test name="Free CRM Cogmento App Test Cases">
+	<parameter name ="browser" value ="chrome"/>
+		<classes>
+			<class name="com.crm.qa.testcases.HomePageTest"></class>
+			<class name="com.crm.qa.testcases.LoginPageTest"></class>		
+		</classes>
+	</test>
+</suite>
